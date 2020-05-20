@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register Form</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td>
+            Name :
+          </td>
+          <td>
+            <input type="text" placeholder="name" name="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+              Message :
+          </td>
+          <td>
+            <input type="Message" placeholder="Message" name="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gender :
+          </td>
+          <td>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Email :
+            </td>
+          <td>
+            <input type="mail" name="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Subject :
+          </td>
+          <td>
+            <input type="Subject" placeholder="subject" name="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="submit" name="">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
